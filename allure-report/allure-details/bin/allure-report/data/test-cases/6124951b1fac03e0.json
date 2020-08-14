@@ -1,0 +1,92 @@
+{
+  "uid" : "6124951b1fac03e0",
+  "name" : "test_incomplete_task_with_invalid_taskid",
+  "fullName" : "test_endpoint.test_task_post.TestTaskPost#test_incomplete_task_with_invalid_taskid",
+  "historyId" : "20398bb36416d30485b574d8955bd58f",
+  "time" : {
+    "start" : 1595227598863,
+    "stop" : 1595227600887,
+    "duration" : 2024
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Incomplete api with invalid id didn't work\nassert <Response [404]> == ''",
+  "statusTrace" : "self = <test_endpoint.test_task_post.TestTaskPost object at 0x000001C80FA18400>\n\n    def test_incomplete_task_with_invalid_taskid(self):\n        logger.info('Executing Incomplete Task API')\n        logger.info('Sending the POST request with task id %s', 123)\n        response = TestTaskPost().incomplete_task_using_invalid_id(123)\n>       assert response == \"\", \"Incomplete api with invalid id didn't work\"\nE       AssertionError: Incomplete api with invalid id didn't work\nE       assert <Response [404]> == ''\n\ntest_task_post.py:42: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "create_and_get_task",
+    "time" : {
+      "start" : 1595227588618,
+      "stop" : 1595227590666,
+      "duration" : 2048
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Incomplete api with invalid id didn't work\nassert <Response [404]> == ''",
+    "statusTrace" : "self = <test_endpoint.test_task_post.TestTaskPost object at 0x000001C80FA18400>\n\n    def test_incomplete_task_with_invalid_taskid(self):\n        logger.info('Executing Incomplete Task API')\n        logger.info('Sending the POST request with task id %s', 123)\n        response = TestTaskPost().incomplete_task_using_invalid_id(123)\n>       assert response == \"\", \"Incomplete api with invalid id didn't work\"\nE       AssertionError: Incomplete api with invalid id didn't work\nE       assert <Response [404]> == ''\n\ntest_task_post.py:42: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "faa70b802debdcb6",
+      "name" : "log",
+      "source" : "faa70b802debdcb6.txt",
+      "type" : "text/plain",
+      "size" : 400
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('create_and_get_task')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_endpoint"
+  }, {
+    "name" : "suite",
+    "value" : "test_task_post"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTaskPost"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-FMV55K7E"
+  }, {
+    "name" : "thread",
+    "value" : "9672-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_endpoint.test_task_post"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('create_and_get_task')" ]
+  },
+  "source" : "6124951b1fac03e0.json",
+  "parameterValues" : [ ]
+}

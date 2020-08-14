@@ -1,0 +1,88 @@
+{
+  "uid" : "4ba34339b0a81606",
+  "name" : "test_complete_task",
+  "fullName" : "test_endpoint.test_task_post.TestTaskPost#test_complete_task",
+  "historyId" : "8eb221b0a29d1e8e96a670ffa0713b95",
+  "time" : {
+    "start" : 1595227590666,
+    "stop" : 1595227594745,
+    "duration" : 4079
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "create_and_get_task",
+    "time" : {
+      "start" : 1595227588618,
+      "stop" : 1595227590666,
+      "duration" : 2048
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "184cbde57688741c",
+      "name" : "log",
+      "source" : "184cbde57688741c.txt",
+      "type" : "text/plain",
+      "size" : 1313
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('create_and_get_task')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_endpoint"
+  }, {
+    "name" : "suite",
+    "value" : "test_task_post"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTaskPost"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-FMV55K7E"
+  }, {
+    "name" : "thread",
+    "value" : "9672-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_endpoint.test_task_post"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('create_and_get_task')" ]
+  },
+  "source" : "4ba34339b0a81606.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,174 @@
+{
+  "277152fc60587f62f70db64c9e90659b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3ba04eff0c7b368a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595228083713,
+        "stop" : 1595228085745,
+        "duration" : 2032
+      }
+    } ]
+  },
+  "8eb221b0a29d1e8e96a670ffa0713b95" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "131603e101f1829e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595228063222,
+        "stop" : 1595228067302,
+        "duration" : 4080
+      }
+    } ]
+  },
+  "c0b1084a1162b9a1c9d2ab2e2f5853c5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8ce76b493d958464",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595228081635,
+        "stop" : 1595228083698,
+        "duration" : 2063
+      }
+    } ]
+  },
+  "62a2209e20e57eaf1c3bfb11886b4acc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "657111e7eba1ba6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595228056534,
+        "stop" : 1595228058581,
+        "duration" : 2047
+      }
+    } ]
+  },
+  "aa141700b71948ae1950c8eaddbd295b" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5d35093588e32e0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595228079570,
+        "stop" : 1595228081620,
+        "duration" : 2050
+      }
+    } ]
+  },
+  "20398bb36416d30485b574d8955bd58f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a7a7da9c631dc669",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595228071397,
+        "stop" : 1595228073429,
+        "duration" : 2032
+      }
+    } ]
+  },
+  "6496c92f1c946c0b7d630a4fe377b813" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "555ca3043f2f16bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595228075475,
+        "stop" : 1595228079555,
+        "duration" : 4080
+      }
+    } ]
+  },
+  "d078b486a85f22947a9a90ecea29db18" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "47562fe79acf82d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595228067318,
+        "stop" : 1595228071382,
+        "duration" : 4064
+      }
+    } ]
+  },
+  "04959e40c1feb2f6334ded17e40d442c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d01418f1c8f3a263",
+      "status" : "broken",
+      "statusDetails" : "client_utility.request_exception.MyException: Error:Get all task details api didn't work got status code 500",
+      "time" : {
+        "start" : 1595228058596,
+        "stop" : 1595228060643,
+        "duration" : 2047
+      }
+    } ]
+  }
+}

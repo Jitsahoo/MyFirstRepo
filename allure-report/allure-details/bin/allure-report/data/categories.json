@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "client_utility.request_exception.MyException: Error:Get all task details api didn't work got status code 500",
+      "children" : [ {
+        "name" : "test_get_multiple_tasks",
+        "uid" : "d01418f1c8f3a263",
+        "parentUid" : "b37e907d9d2391a260dcf56270e57480",
+        "status" : "broken",
+        "time" : {
+          "start" : 1595228058596,
+          "stop" : 1595228060643,
+          "duration" : 2047
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b37e907d9d2391a260dcf56270e57480"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

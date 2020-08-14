@@ -1,0 +1,117 @@
+{
+  "uid" : "3ba04eff0c7b368a",
+  "name" : "test_modify_task_with_invalid",
+  "fullName" : "test_endpoint.test_task_update.TestTaskUpdate#test_modify_task_with_invalid",
+  "historyId" : "277152fc60587f62f70db64c9e90659b",
+  "time" : {
+    "start" : 1595228083713,
+    "stop" : 1595228085745,
+    "duration" : 2032
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "create_and_get_task",
+    "time" : {
+      "start" : 1595228073444,
+      "stop" : 1595228075475,
+      "duration" : 2031
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "78bf451581dee7cd",
+      "name" : "log",
+      "source" : "78bf451581dee7cd.txt",
+      "type" : "text/plain",
+      "size" : 388
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('create_and_get_task')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_endpoint"
+  }, {
+    "name" : "suite",
+    "value" : "test_task_update"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTaskUpdate"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-FMV55K7E"
+  }, {
+    "name" : "thread",
+    "value" : "18264-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_endpoint.test_task_update"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "60884d3a0e4d06f6",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Update task api dint updated the task\nassert <Response [404]> == ''",
+      "time" : {
+        "start" : 1595227801666,
+        "stop" : 1595227803710,
+        "duration" : 2044
+      }
+    }, {
+      "uid" : "38d0324e9982eb2f",
+      "status" : "broken",
+      "statusDetails" : "client_utility.request_exception.MyException: able to update the  task using invalid taskid , 456 with code 404",
+      "time" : {
+        "start" : 1595227014642,
+        "stop" : 1595227016690,
+        "duration" : 2048
+      }
+    }, {
+      "uid" : "2df83be47b6ad555",
+      "status" : "broken",
+      "statusDetails" : "client_utility.request_exception.MyException: Unable to incomplete task may be task id is invalid , 456 with error code 404",
+      "time" : {
+        "start" : 1595223798776,
+        "stop" : 1595223800791,
+        "duration" : 2015
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('create_and_get_task')" ]
+  },
+  "source" : "3ba04eff0c7b368a.json",
+  "parameterValues" : [ ]
+}

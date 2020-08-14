@@ -1,0 +1,126 @@
+{
+  "uid" : "8ce76b493d958464",
+  "name" : "test_deleted_taskid",
+  "fullName" : "test_endpoint.test_task_update.TestTaskUpdate#test_deleted_taskid",
+  "historyId" : "c0b1084a1162b9a1c9d2ab2e2f5853c5",
+  "time" : {
+    "start" : 1595228081635,
+    "stop" : 1595228083698,
+    "duration" : 2063
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "create_and_get_task",
+    "time" : {
+      "start" : 1595228073444,
+      "stop" : 1595228075475,
+      "duration" : 2031
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "60b4b533bcc76b9e",
+      "name" : "log",
+      "source" : "60b4b533bcc76b9e.txt",
+      "type" : "text/plain",
+      "size" : 419
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('create_and_get_task')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_endpoint"
+  }, {
+    "name" : "suite",
+    "value" : "test_task_update"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTaskUpdate"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-FMV55K7E"
+  }, {
+    "name" : "thread",
+    "value" : "18264-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_endpoint.test_task_update"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1c59a1c931469ba3",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Testing get task with deleted it didn't work\nassert <Response [404]> == ''",
+      "time" : {
+        "start" : 1595227799599,
+        "stop" : 1595227801651,
+        "duration" : 2052
+      }
+    }, {
+      "uid" : "5e78bd842c2a334c",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Testing get task with deleted it didn't work\nassert <Response [404]> == ''",
+      "time" : {
+        "start" : 1595227609108,
+        "stop" : 1595227611142,
+        "duration" : 2034
+      }
+    }, {
+      "uid" : "8fc4ffe72ddc968a",
+      "status" : "broken",
+      "statusDetails" : "client_utility.request_exception.MyException: able to incomplete task using invalid taskid, lKai4Spr with code 200",
+      "time" : {
+        "start" : 1595227010524,
+        "stop" : 1595227012556,
+        "duration" : 2032
+      }
+    }, {
+      "uid" : "60d14a03e8a968e6",
+      "status" : "broken",
+      "statusDetails" : "client_utility.request_exception.MyException: Task id not Found so got error code 404",
+      "time" : {
+        "start" : 1595223794674,
+        "stop" : 1595223796700,
+        "duration" : 2026
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('create_and_get_task')" ]
+  },
+  "source" : "8ce76b493d958464.json",
+  "parameterValues" : [ ]
+}

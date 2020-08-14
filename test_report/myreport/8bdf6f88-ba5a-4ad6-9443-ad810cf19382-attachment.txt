@@ -1,0 +1,194 @@
+--- Logging error ---
+Traceback (most recent call last):
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\logging\__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\logging\__init__.py", line 925, in format
+    return fmt.format(record)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\logging\__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\logging\__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\JITENDRA\AppData\Local\Programs\Python\Python38\Scripts\pytest.exe\__main__.py", line 7, in <module>
+    sys.exit(main())
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\_pytest\config\__init__.py", line 124, in main
+    ret = config.hook.pytest_cmdline_main(
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\hooks.py", line 286, in __call__
+    return self._hookexec(self, self.get_hookimpls(), kwargs)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\manager.py", line 93, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\manager.py", line 84, in <lambda>
+    self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\callers.py", line 187, in _multicall
+    res = hook_impl.function(*args)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\_pytest\main.py", line 240, in pytest_cmdline_main
+    return wrap_session(config, _main)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\_pytest\main.py", line 191, in wrap_session
+    session.exitstatus = doit(config, session) or 0
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\_pytest\main.py", line 247, in _main
+    config.hook.pytest_runtestloop(session=session)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\hooks.py", line 286, in __call__
+    return self._hookexec(self, self.get_hookimpls(), kwargs)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\manager.py", line 93, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\manager.py", line 84, in <lambda>
+    self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\callers.py", line 187, in _multicall
+    res = hook_impl.function(*args)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\_pytest\main.py", line 272, in pytest_runtestloop
+    item.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\hooks.py", line 286, in __call__
+    return self._hookexec(self, self.get_hookimpls(), kwargs)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\manager.py", line 93, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\manager.py", line 84, in <lambda>
+    self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\callers.py", line 187, in _multicall
+    res = hook_impl.function(*args)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\_pytest\runner.py", line 85, in pytest_runtest_protocol
+    runtestprotocol(item, nextitem=nextitem)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\_pytest\runner.py", line 100, in runtestprotocol
+    reports.append(call_and_report(item, "call", log))
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\_pytest\runner.py", line 186, in call_and_report
+    call = call_runtest_hook(item, when, **kwds)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\_pytest\runner.py", line 216, in call_runtest_hook
+    return CallInfo.from_call(
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\_pytest\runner.py", line 244, in from_call
+    result = func()
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\_pytest\runner.py", line 217, in <lambda>
+    lambda: ihook(item=item, **kwds), when=when, reraise=reraise
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\hooks.py", line 286, in __call__
+    return self._hookexec(self, self.get_hookimpls(), kwargs)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\manager.py", line 93, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\manager.py", line 84, in <lambda>
+    self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\callers.py", line 187, in _multicall
+    res = hook_impl.function(*args)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\_pytest\runner.py", line 135, in pytest_runtest_call
+    item.runtest()
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\_pytest\python.py", line 1477, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\hooks.py", line 286, in __call__
+    return self._hookexec(self, self.get_hookimpls(), kwargs)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\manager.py", line 93, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\manager.py", line 84, in <lambda>
+    self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\callers.py", line 187, in _multicall
+    res = hook_impl.function(*args)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\_pytest\python.py", line 182, in pytest_pyfunc_call
+    result = testfunction(**testargs)
+  File "D:\AquaTask\task_server_automation\test_endpoint\test_task_update.py", line 41, in test_deleted_taskid
+    logger.info("response",response.text)
+Message: 'response'
+Arguments: ('{}',)
+--- Logging error ---
+Traceback (most recent call last):
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\logging\__init__.py", line 1081, in emit
+    msg = self.format(record)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\logging\__init__.py", line 925, in format
+    return fmt.format(record)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\_pytest\logging.py", line 74, in format
+    return super().format(record)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\logging\__init__.py", line 664, in format
+    record.message = record.getMessage()
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\logging\__init__.py", line 369, in getMessage
+    msg = msg % self.args
+TypeError: not all arguments converted during string formatting
+Call stack:
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\JITENDRA\AppData\Local\Programs\Python\Python38\Scripts\pytest.exe\__main__.py", line 7, in <module>
+    sys.exit(main())
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\_pytest\config\__init__.py", line 124, in main
+    ret = config.hook.pytest_cmdline_main(
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\hooks.py", line 286, in __call__
+    return self._hookexec(self, self.get_hookimpls(), kwargs)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\manager.py", line 93, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\manager.py", line 84, in <lambda>
+    self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\callers.py", line 187, in _multicall
+    res = hook_impl.function(*args)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\_pytest\main.py", line 240, in pytest_cmdline_main
+    return wrap_session(config, _main)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\_pytest\main.py", line 191, in wrap_session
+    session.exitstatus = doit(config, session) or 0
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\_pytest\main.py", line 247, in _main
+    config.hook.pytest_runtestloop(session=session)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\hooks.py", line 286, in __call__
+    return self._hookexec(self, self.get_hookimpls(), kwargs)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\manager.py", line 93, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\manager.py", line 84, in <lambda>
+    self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\callers.py", line 187, in _multicall
+    res = hook_impl.function(*args)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\_pytest\main.py", line 272, in pytest_runtestloop
+    item.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\hooks.py", line 286, in __call__
+    return self._hookexec(self, self.get_hookimpls(), kwargs)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\manager.py", line 93, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\manager.py", line 84, in <lambda>
+    self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\callers.py", line 187, in _multicall
+    res = hook_impl.function(*args)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\_pytest\runner.py", line 85, in pytest_runtest_protocol
+    runtestprotocol(item, nextitem=nextitem)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\_pytest\runner.py", line 100, in runtestprotocol
+    reports.append(call_and_report(item, "call", log))
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\_pytest\runner.py", line 186, in call_and_report
+    call = call_runtest_hook(item, when, **kwds)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\_pytest\runner.py", line 216, in call_runtest_hook
+    return CallInfo.from_call(
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\_pytest\runner.py", line 244, in from_call
+    result = func()
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\_pytest\runner.py", line 217, in <lambda>
+    lambda: ihook(item=item, **kwds), when=when, reraise=reraise
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\hooks.py", line 286, in __call__
+    return self._hookexec(self, self.get_hookimpls(), kwargs)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\manager.py", line 93, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\manager.py", line 84, in <lambda>
+    self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\callers.py", line 187, in _multicall
+    res = hook_impl.function(*args)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\_pytest\runner.py", line 135, in pytest_runtest_call
+    item.runtest()
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\_pytest\python.py", line 1477, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\hooks.py", line 286, in __call__
+    return self._hookexec(self, self.get_hookimpls(), kwargs)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\manager.py", line 93, in _hookexec
+    return self._inner_hookexec(hook, methods, kwargs)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\manager.py", line 84, in <lambda>
+    self._inner_hookexec = lambda hook, methods, kwargs: hook.multicall(
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\pluggy\callers.py", line 187, in _multicall
+    res = hook_impl.function(*args)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\_pytest\python.py", line 182, in pytest_pyfunc_call
+    result = testfunction(**testargs)
+  File "D:\AquaTask\task_server_automation\test_endpoint\test_task_update.py", line 41, in test_deleted_taskid
+    logger.info("response",response.text)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\logging\__init__.py", line 1434, in info
+    self._log(INFO, msg, args, **kwargs)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\logging\__init__.py", line 1577, in _log
+    self.handle(record)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\logging\__init__.py", line 1587, in handle
+    self.callHandlers(record)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\logging\__init__.py", line 1649, in callHandlers
+    hdlr.handle(record)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\logging\__init__.py", line 950, in handle
+    self.emit(record)
+  File "c:\users\jitendra\appdata\local\programs\python\python38\lib\site-packages\_pytest\logging.py", line 310, in emit
+    logging.StreamHandler.emit(self, record)
+Message: 'response'
+Arguments: ('{}',)

@@ -1,0 +1,9 @@
+2020-07-31 11:38:50,409 Executing create task api
+2020-07-31 11:38:50,409 Sending the POST request http://localhost:5000/tasks
+2020-07-31 11:38:50,409 Starting new HTTP connection (1): localhost:5000
+2020-07-31 11:38:55,594 Executing create task api
+2020-07-31 11:38:55,594 Sending the POST request http://localhost:5000/tasks
+2020-07-31 11:38:55,602 Starting new HTTP connection (1): localhost:5000
+2020-07-31 11:39:00,425 Executing create task api
+2020-07-31 11:39:00,425 Sending the POST request http://localhost:5000/tasks
+2020-07-31 11:39:00,425 Starting new HTTP connection (1): localhost:5000

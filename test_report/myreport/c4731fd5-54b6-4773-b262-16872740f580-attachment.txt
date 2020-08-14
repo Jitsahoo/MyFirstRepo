@@ -1,0 +1,5 @@
+[32mINFO    [0m root:test_task_post.py:31 Executing Incomplete Task API
+[32mINFO    [0m root:test_task_post.py:32 Sending the POST request with task id 123
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:226 Starting new HTTP connection (1): localhost:5000
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:433 http://localhost:5000 "POST /tasks/123/incomplete HTTP/1.1" 404 2
+[31m[1mERROR   [0m root:task_utility.py:65 Got the assertion error for get incompleted task as, Unable to completed the task using the task id 123

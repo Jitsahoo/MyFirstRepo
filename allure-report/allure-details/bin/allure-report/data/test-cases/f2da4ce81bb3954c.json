@@ -1,0 +1,88 @@
+{
+  "uid" : "f2da4ce81bb3954c",
+  "name" : "test_modify_task",
+  "fullName" : "test_endpoint.test_task_update.TestTaskUpdate#test_modify_task",
+  "historyId" : "6496c92f1c946c0b7d630a4fe377b813",
+  "time" : {
+    "start" : 1595223784567,
+    "stop" : 1595223788597,
+    "duration" : 4030
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "create_and_get_task",
+    "time" : {
+      "start" : 1595223782535,
+      "stop" : 1595223784566,
+      "duration" : 2031
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "56f3aa4b1a6a54de",
+      "name" : "log",
+      "source" : "56f3aa4b1a6a54de.txt",
+      "type" : "text/plain",
+      "size" : 1434
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('create_and_get_task')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_endpoint"
+  }, {
+    "name" : "suite",
+    "value" : "test_task_update"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTaskUpdate"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-FMV55K7E"
+  }, {
+    "name" : "thread",
+    "value" : "19084-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_endpoint.test_task_update"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('create_and_get_task')" ]
+  },
+  "source" : "f2da4ce81bb3954c.json",
+  "parameterValues" : [ ]
+}

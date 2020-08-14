@@ -1,0 +1,122 @@
+{
+  "uid" : "131603e101f1829e",
+  "name" : "test_complete_task",
+  "fullName" : "test_endpoint.test_task_post.TestTaskPost#test_complete_task",
+  "historyId" : "8eb221b0a29d1e8e96a670ffa0713b95",
+  "time" : {
+    "start" : 1595228063222,
+    "stop" : 1595228067302,
+    "duration" : 4080
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "create_and_get_task",
+    "time" : {
+      "start" : 1595228061159,
+      "stop" : 1595228063222,
+      "duration" : 2063
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "90721b5d7212f213",
+      "name" : "log",
+      "source" : "90721b5d7212f213.txt",
+      "type" : "text/plain",
+      "size" : 1313
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('create_and_get_task')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_endpoint"
+  }, {
+    "name" : "suite",
+    "value" : "test_task_post"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTaskPost"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-FMV55K7E"
+  }, {
+    "name" : "thread",
+    "value" : "18264-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_endpoint.test_task_post"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "150868abbec1d1ce",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595227781051,
+        "stop" : 1595227785141,
+        "duration" : 4090
+      }
+    }, {
+      "uid" : "4ba34339b0a81606",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595227590666,
+        "stop" : 1595227594745,
+        "duration" : 4079
+      }
+    }, {
+      "uid" : "84a6f1e8cbf87fe1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595226987949,
+        "stop" : 1595226992033,
+        "duration" : 4084
+      }
+    }, {
+      "uid" : "e591d509cda77c35",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595223772387,
+        "stop" : 1595223776416,
+        "duration" : 4029
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('create_and_get_task')" ]
+  },
+  "source" : "131603e101f1829e.json",
+  "parameterValues" : [ ]
+}

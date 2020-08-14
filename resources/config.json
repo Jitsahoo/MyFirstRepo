@@ -1,0 +1,7 @@
+{
+  "host_config" : "localhost",
+  "host_port" : "5000",
+  "host_path" : "tasks",
+  "logfile_name" : "task_api_endpoint.log",
+  "logfile_path" : "../log/"
+}

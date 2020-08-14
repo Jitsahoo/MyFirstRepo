@@ -1,0 +1,5 @@
+[32mINFO    [0m root:test_task_update.py:37 Executing GET Task API using deleted task id
+[32mINFO    [0m root:test_task_update.py:38 Sending the GET request with task id 9Jbk4egN
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:226 Starting new HTTP connection (1): localhost:5000
+[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:433 http://localhost:5000 "DELETE /tasks/9Jbk4egN HTTP/1.1" 404 2
+[32mINFO    [0m root:test_task_update.py:40 Response is <Response [404]>

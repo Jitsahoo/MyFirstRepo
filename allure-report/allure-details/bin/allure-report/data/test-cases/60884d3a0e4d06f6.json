@@ -1,0 +1,98 @@
+{
+  "uid" : "60884d3a0e4d06f6",
+  "name" : "test_modify_task_with_invalid",
+  "fullName" : "test_endpoint.test_task_update.TestTaskUpdate#test_modify_task_with_invalid",
+  "historyId" : "277152fc60587f62f70db64c9e90659b",
+  "time" : {
+    "start" : 1595227801666,
+    "stop" : 1595227803710,
+    "duration" : 2044
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Update task api dint updated the task\nassert <Response [404]> == ''",
+  "statusTrace" : "self = <test_endpoint.test_task_update.TestTaskUpdate object at 0x0000022B03551820>\n\n    def test_modify_task_with_invalid(self):\n        logger.info(\"Executing Modify Task API\")\n        logger.info('Sending the POST request with task id %s', 456)\n        response = TaskUtility().update_task_using_invalid_id(456, update_task)\n        logger.info(\"Verify update task json is updated successfully expected %s ,Actual %s\", update_task, response)\n        logger.info(\"response\", response.text)\n>       assert response == \"\", \"Update task api dint updated the task\"\nE       AssertionError: Update task api dint updated the task\nE       assert <Response [404]> == ''\n\ntest_task_update.py:52: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "create_and_get_task",
+    "time" : {
+      "start" : 1595227791408,
+      "stop" : 1595227793433,
+      "duration" : 2025
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Update task api dint updated the task\nassert <Response [404]> == ''",
+    "statusTrace" : "self = <test_endpoint.test_task_update.TestTaskUpdate object at 0x0000022B03551820>\n\n    def test_modify_task_with_invalid(self):\n        logger.info(\"Executing Modify Task API\")\n        logger.info('Sending the POST request with task id %s', 456)\n        response = TaskUtility().update_task_using_invalid_id(456, update_task)\n        logger.info(\"Verify update task json is updated successfully expected %s ,Actual %s\", update_task, response)\n        logger.info(\"response\", response.text)\n>       assert response == \"\", \"Update task api dint updated the task\"\nE       AssertionError: Update task api dint updated the task\nE       assert <Response [404]> == ''\n\ntest_task_update.py:52: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7827aef66c530024",
+      "name" : "log",
+      "source" : "7827aef66c530024.txt",
+      "type" : "text/plain",
+      "size" : 561
+    }, {
+      "uid" : "132b47339d682b5a",
+      "name" : "stderr",
+      "source" : "132b47339d682b5a.txt",
+      "type" : "text/plain",
+      "size" : 15878
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('create_and_get_task')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_endpoint"
+  }, {
+    "name" : "suite",
+    "value" : "test_task_update"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTaskUpdate"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-FMV55K7E"
+  }, {
+    "name" : "thread",
+    "value" : "16612-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_endpoint.test_task_update"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('create_and_get_task')" ]
+  },
+  "source" : "60884d3a0e4d06f6.json",
+  "parameterValues" : [ ]
+}

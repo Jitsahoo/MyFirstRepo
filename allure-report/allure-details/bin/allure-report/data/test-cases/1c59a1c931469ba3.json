@@ -1,0 +1,98 @@
+{
+  "uid" : "1c59a1c931469ba3",
+  "name" : "test_deleted_taskid",
+  "fullName" : "test_endpoint.test_task_update.TestTaskUpdate#test_deleted_taskid",
+  "historyId" : "c0b1084a1162b9a1c9d2ab2e2f5853c5",
+  "time" : {
+    "start" : 1595227799599,
+    "stop" : 1595227801651,
+    "duration" : 2052
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Testing get task with deleted it didn't work\nassert <Response [404]> == ''",
+  "statusTrace" : "self = <test_endpoint.test_task_update.TestTaskUpdate object at 0x0000022B03551D90>\n\n    def test_deleted_taskid(self):\n        logger.info(\"Executing GET Task API using deleted task id\")\n        logger.info('Sending the GET request with task id %s', TaskUtility.task_id)\n        response = TaskUtility().get_task_using_deleted_taskid(TaskUtility.task_id)\n        logger.info(\"Response is {response}\".format(response=response))\n        logger.info(\"response\",response.text)\n>       assert response == \"\", \"Testing get task with deleted it didn't work\"\nE       AssertionError: Testing get task with deleted it didn't work\nE       assert <Response [404]> == ''\n\ntest_task_update.py:42: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "create_and_get_task",
+    "time" : {
+      "start" : 1595227791408,
+      "stop" : 1595227793433,
+      "duration" : 2025
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Testing get task with deleted it didn't work\nassert <Response [404]> == ''",
+    "statusTrace" : "self = <test_endpoint.test_task_update.TestTaskUpdate object at 0x0000022B03551D90>\n\n    def test_deleted_taskid(self):\n        logger.info(\"Executing GET Task API using deleted task id\")\n        logger.info('Sending the GET request with task id %s', TaskUtility.task_id)\n        response = TaskUtility().get_task_using_deleted_taskid(TaskUtility.task_id)\n        logger.info(\"Response is {response}\".format(response=response))\n        logger.info(\"response\",response.text)\n>       assert response == \"\", \"Testing get task with deleted it didn't work\"\nE       AssertionError: Testing get task with deleted it didn't work\nE       assert <Response [404]> == ''\n\ntest_task_update.py:42: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3b9bb1952a828de5",
+      "name" : "log",
+      "source" : "3b9bb1952a828de5.txt",
+      "type" : "text/plain",
+      "size" : 494
+    }, {
+      "uid" : "c491a23ff20bf8ea",
+      "name" : "stderr",
+      "source" : "c491a23ff20bf8ea.txt",
+      "type" : "text/plain",
+      "size" : 15856
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('create_and_get_task')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_endpoint"
+  }, {
+    "name" : "suite",
+    "value" : "test_task_update"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestTaskUpdate"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-FMV55K7E"
+  }, {
+    "name" : "thread",
+    "value" : "16612-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_endpoint.test_task_update"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('create_and_get_task')" ]
+  },
+  "source" : "1c59a1c931469ba3.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,12 @@
+{
+  "create_task": {
+    "task": "addtask",
+    "completed": false
+  },
+
+"update_task":{
+  "task": "modifiedtask",
+  "completed": false
+}
+
+}
