@@ -1,5 +1,0 @@
-[32mINFO    [0m root:test_task_update.py:47 Executing Modify Task API
-[32mINFO    [0m root:test_task_update.py:48 Sending the POST request with task id 456
-[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:226 Starting new HTTP connection (1): localhost:5000
-[35mDEBUG   [0m urllib3.connectionpool:connectionpool.py:433 http://localhost:5000 "PUT /tasks/456 HTTP/1.1" 404 2
-[32mINFO    [0m root:test_task_update.py:50 Verify update task json is updated successfully expected {'task': 'modifiedtask', 'completed': False} ,Actual <Response [404]>
